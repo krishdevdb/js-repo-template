@@ -21,6 +21,7 @@ jobs:
           git-user-email: 'krishdevdb@gmail.com'
           preset: 'angular'
           tag-prefix: 'v'
+          skip-version: 'true'
 
       - name: GitHub Releases
         uses: actions/create-release@v1
