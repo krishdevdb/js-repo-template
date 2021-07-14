@@ -29,13 +29,29 @@
     "lib": "dist"
   },
   "repository": "github:krishdevdb/js-repo-template",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.30.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "husky": "^7.0.0"
+  },
   "engines": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/",
     "tag": "latest"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
