@@ -15,7 +15,7 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
-          github-token: ${{ secrets.release }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           git-message: 'chore(release): {version}'
           git-user-name: 'Krish Gupta'
           git-user-email: 'krishdevdb@gmail.com'
@@ -27,7 +27,7 @@ jobs:
         uses: actions/create-release@v1
         if: ${{ steps.release.outputs.skipped == 'false' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.release }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ steps.release.outputs.version }}
           release_name: ${{ steps.release.outputs.tag }}
