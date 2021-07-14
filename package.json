@@ -1,10 +1,41 @@
 {
   "name": "js-repository-template",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {},
+  "version": "0.0.0",
+  "description": "Javascript Repository Template",
   "keywords": [],
-  "author": "Krish Gupta <krishdevdb@gmail.com>",
-  "license": "MIT"
+  "homepage": "https://github.com/krishdevdb",
+  "bugs": {
+    "url": "https://github.com/search/",
+    "email": "krishdevdb@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Krish",
+    "email": "krishdevdb@gmail.com",
+    "url": "https://github.com/krishdevdb/"
+  },
+  "contributors": [],
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/krishdevdb"
+    }
+  ],
+  "main": "src/index.js",
+  "bin": {},
+  "man": [],
+  "directories": {
+    "src": "src",
+    "lib": "dist"
+  },
+  "repository": "github:krishdevdb/js-repo-template",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  }
 }
