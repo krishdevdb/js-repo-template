@@ -30,7 +30,8 @@
   },
   "repository": "github:krishdevdb/js-repo-template",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "npx --no-install cz"
   },
   "dependencies": {},
   "devDependencies": {
