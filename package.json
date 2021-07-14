@@ -31,7 +31,9 @@
   "repository": "github:krishdevdb/js-repo-template",
   "scripts": {
     "prepare": "husky install",
-    "commit": "npx --no-install cz"
+    "commit": "npx --no-install cz",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix"
   },
   "dependencies": {},
   "devDependencies": {
