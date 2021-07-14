@@ -1,6 +1,9 @@
 # GitHub
 .github
 
+# Husky
+.husky
+
 # Logs
 npm-debug.log*
 
